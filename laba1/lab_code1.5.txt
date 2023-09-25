@@ -1,0 +1,30 @@
+//Красный пин 6
+#define R_PIN 6
+//ЗЕЛЕНЫЙ ПИН 3
+#define G_PIN 3
+//синий пин 5
+#define B_PIN 5
+
+void setup( ) {
+  	
+  	
+  	pinMode(R_PIN, OUTPUT);
+    pinMode(G_PIN, OUTPUT);
+  	pinMode(B_PIN, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(R_PIN,1);
+  delay(1000);
+  digitalWrite(R_PIN,0);
+  
+  digitalWrite(G_PIN,1);
+  delay(1000);
+  digitalWrite(G_PIN,0);
+  
+  digitalWrite(B_PIN,1);
+  delay(1000);
+  digitalWrite(B_PIN,0);
+}
+  
+  
